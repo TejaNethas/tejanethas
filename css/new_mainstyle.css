@@ -1,0 +1,624 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+@font-face {
+  font-family: "Voces-Regular";
+  src: url(../fonts/Voces-Regular.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: Poppins-Regular;
+  src: url("../fonts/Poppins-Regular.otf") format("opentype");
+}
+
+p,
+ul,
+a,
+span,
+b,
+strong,
+hgroup,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins-Regular";
+  padding: 0;
+  margin: 0;
+}
+
+body::-webkit-scrollbar-track {
+  border-radius: 10px;
+  margin: 0px 0;
+  background-color: transparent;
+}
+
+body::-webkit-scrollbar {
+  width: 0px;
+  background-color: transparent;
+}
+
+body::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: transparent;
+}
+
+button:focus {
+  outline: 0px dotted !important;
+  outline: 0px auto -webkit-focus-ring-color !important;
+}
+
+.btn.focus,
+.btn:focus {
+  outline: 0;
+  box-shadow: 0 0 0 0rem transparent !important;
+}
+
+.navbar-bg {
+  background: #fffffffc;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+}
+.nethas-nav-links .navbar-nav .nav-item{
+      padding: 1em 0;
+}
+.nethas-nav-links .navbar-nav .nav-link {
+  color: #2a1e5c !important;
+  font-size: 15px;
+  text-align: center;
+  font-weight: bold;
+  padding: 0.5em 1.5em !important;
+  margin: 0 1em;
+  border: 2px solid transparent;
+  transition: all .5s ease-in-out;
+}
+.navbar-brand span{
+    color: #ff9b00;
+}
+.nav-toggler-icon i {
+  color: #2a1e5c !important;
+}
+.nethas-nav-links .nav-link:focus,
+.nethas-nav-links .nav-link:hover {
+  color: #ff9b00 !important;
+}
+.nethas-nav-links .nav-link.active {
+  color: #ff9b00 !important;
+  border: 2px solid #ff9b00;
+  border-radius: 100px;
+  background: #ffffff;
+}
+.nav-bar-links{
+  background: #5cdb95;
+  padding: 2em 2em;
+}
+.teja-nethas-sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #fff;
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.teja-nethas-sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #2a1e5c;
+  display: block;
+  transition: 0.3s;
+}
+
+.teja-nethas-sidenav a:hover {
+  color: #ff9b00;
+  text-decoration: none;
+}
+
+.teja-nethas-sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.width-250px{
+  width: 280px;
+  padding: 60px 1em 1em 1em;
+}
+.side-nav-open{
+color: #2a1e5c !important;
+}
+.side-nav-open i{
+  font-size: 2em;
+}
+.about-me-avthar-side-nav{
+ width: 230px;
+ background: #fff;
+ margin: 0 auto;  
+}
+.about-me-avthar-side-nav img{
+ margin: 0 auto;
+ width: 100%; 
+}
+.divider-bg{
+      background-color: #e3e3f4 !important;
+}
+
+.home-title-img img{
+  transform: translate(0%,-5%);
+}
+
+.home-hding-sec {
+  padding: 4em 0 2em 0;
+}
+
+/*Teja Nethas about section start*/
+
+.about-me-sec {
+  padding: 3em 0 3em 0;
+}
+
+
+.about-me-hding {
+  padding: 2em 0;
+}
+
+.home-hding-sec h1 {
+  color: #2A1E5C;
+  font-size: 7em;
+  font-weight: bold;
+  padding-bottom: 0em;
+  background-image: linear-gradient(90deg,#8f79ea,#ee4266);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.about-me-avthar {
+  width: 300px;
+  background: #fff;
+  margin: 0 auto;
+  border-radius: 100%;
+  height: 300px;
+}
+
+.about-me-avthar img {
+  margin: 0 auto;
+  width: 100%;
+}
+
+.about-me-dec p {
+  color: #000000;
+  font-size: 1.2em;
+  line-height: 1.8;
+}
+
+.home-author-dec p{
+  padding: 2em 0;
+}
+
+.about-me-dec p span a {
+  color: #ff9b00;
+  text-decoration: underline;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.btn-for-known .btn {
+  border: 2px solid #ffffff;
+  color: #ffffff;
+  border-radius: 100px;
+  background: #ff9b00;
+  padding: 0.5em 2em;
+  transition: all .3s ease-in-out;
+}
+
+.btn-for-known .btn:hover {
+  border: 2px solid #fff;
+  color: #fff;
+  background: #2a1e5c;
+}
+
+.btn-for-get-in-touch .btn {
+  border: 2px solid #FF9800;
+  color: #2a1e5c;
+  border-radius: 100px;
+  background: #ffffff;
+  padding: 0.5em 2em;
+  transition: all .3s ease-in-out;
+}
+
+.btn-for-get-in-touch .btn:hover {
+  border: 2px solid #2a1e5c;
+  color: #ffffff;
+  background: #ff9b00;
+}
+
+.about-me-sec h2 {
+  color: #fff;
+  text-transform: capitalize;
+}
+
+.work-expr-sec {
+  background: #fff !important;
+}
+
+.work-expr-sec.about-me-sec h2 {
+  color: #2a1e5c;
+  text-transform: capitalize;
+  padding-bottom: 1em;
+}
+
+.work-expr-sec .about-me-dec p {
+  color: #212121;
+}
+
+.what-to-work-sec {
+  /*background: linear-gradient(-90deg, #8ee4af, #5cdb95) !important;*/
+  background: linear-gradient(-90deg, #ffffff, #ffffff) !important;
+}
+
+.what-to-work-hding h3 {
+  color: #2a1e5c;
+  padding: 0 0 1em 0;
+}
+
+.what-to-work-dec p {
+  color: #212121;
+}
+
+.what-can-i-do h1, .what-can-i-do h2 {
+  color: #2a1e5c;
+  padding: 0 0 1em 0;
+}
+
+.have-an-idea-sec {
+  height: 100%;
+  width: 100%;
+  display: block;
+  background-image: linear-gradient(to bottom right, #ffffff, #ffffff);
+  background-color: #fff;
+}
+
+.have-an-idea h2 {
+  color: #2a1e5c;
+  padding-bottom: 0.5em;
+}
+
+.teja-nethas-footer {
+  background: #2a1e5c;
+}
+
+.teja-nethas-footer-pd {
+  padding: 2em 0;
+}
+
+footer .footer_above {
+  padding-top: 50px;
+  background-color: #2a1e5c;
+}
+
+footer .footer-col {
+  margin-bottom: 50px;
+}
+
+footer h3 {
+  margin-bottom: 30px;
+  color: #ffffff;
+}
+
+footer p {
+  color: #ffffff;
+  margin: 0;
+}
+
+.list-inline {
+  padding-left: 0;
+  margin-left: -5px;
+  list-style: none;
+}
+
+.list-inline>li {
+  display: inline-block;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+.btn-outline {
+  margin-top: 25px;
+  border: solid 2px #fff;
+  font-size: 20px;
+  color: #fff;
+  background: 0 0;
+  transition: all .3s ease-in-out;
+}
+
+.btn-social {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  border: 2px solid #fff;
+  border-radius: 100%;
+  text-align: center;
+  font-size: 20px;
+  line-height: 45px;
+}
+
+.btn-outline:hover {
+  background: white;
+  color: #2a1e5c;
+}
+
+footer .footer_below {
+  padding: 10px 0;
+  background-color: #2a1d5be8;
+}
+
+footer .target-a .btn-for-get-in-touch {
+  padding: 1em 0;
+}
+
+.ripple-effect {
+  position: relative;
+  overflow: hidden;
+  -webkit-transform: translate3d(0, 0, 0);
+}
+
+.ink {
+  display: block;
+  position: absolute;
+  pointer-events: none;
+  border-radius: 50%;
+  -webkit-transform: scale(0);
+  -moz-transform: scale(0);
+  -ms-transform: scale(0);
+  -o-transform: scale(0);
+  transform: scale(0);
+  background: #fff;
+  opacity: 0.5;
+}
+
+.ink.animate {
+  -webkit-animation: ripple .5s linear;
+  -moz-animation: ripple .5s linear;
+  -ms-animation: ripple .5s linear;
+  -o-animation: ripple .5s linear;
+  animation: ripple .5s linear;
+}
+
+@keyframes ripple {
+  100% {
+    opacity: 0;
+    transform: scale(2.5);
+  }
+}
+
+@-webkit-keyframes ripple {
+  100% {
+    opacity: 0;
+    -webkit-transform: scale(2.5);
+    transform: scale(2.5);
+  }
+}
+
+@-moz-keyframes ripple {
+  100% {
+    opacity: 0;
+    -moz-transform: scale(2.5);
+    transform: scale(2.5);
+  }
+}
+
+@-ms-keyframes ripple {
+  100% {
+    opacity: 0;
+    -ms-transform: scale(2.5);
+    transform: scale(2.5);
+  }
+}
+
+@-o-keyframes ripple {
+  100% {
+    opacity: 0;
+    -o-transform: scale(2.5);
+    transform: scale(2.5);
+  }
+}
+
+.interaction-brands .interaction-brands-ul {
+  list-style-type: none;
+}
+
+.interaction-brands .interaction-brands-ul li {
+  display: inline;
+}
+
+.interaction-brands .interaction-brands-ul li img {}
+
+.teja-nethas-contact-banner img {
+  width: 100%;
+}
+
+.event-contact-details ul {
+  list-style-type: none;
+}
+
+.event-info-block {
+  padding: 0.5em 0.5em;
+  border: 1px solid #ffffff;
+  box-shadow: 0px 0px 4px #333;
+  margin: 1em 0;
+}
+
+.event-contact-details ul h3 {
+  margin: 0;
+  padding: 0.2em;
+  font-size: 20px;
+}
+
+.event-contact-details ul p {
+  margin: 0;
+  padding: 0.5em;
+  font-size: 14px;
+}
+
+.seminor-login-form {
+  padding: 2em 4em;
+}
+
+.seminor-login-form .form-group {
+  position: relative;
+  margin-bottom: 1.5em !important;
+}
+
+.styled-input label {
+  color: #5cdb95;
+  position: absolute;
+  top: 10px;
+  left: 0;
+  -webkit-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+  pointer-events: none;
+}
+
+.styled-input input:focus~label,
+.styled-input input:valid~label {
+  font-size: 0.75em;
+  color: #2a1e5c;
+  top: -10px;
+  -webkit-transition: all 0.225s ease;
+  transition: all 0.225s ease;
+}
+
+.ges-location-from .form-group label {
+  color: #63666A;
+  margin: 0;
+}
+
+.seminor-login-form .form-control:focus,
+.seminor-login-form .form-control:active {
+  outline: none !important;
+  outline-width: 0;
+  box-shadow: 0 0 0 0.2rem transparent;
+  color: #5cdb95;
+  background-color: transparent;
+  border-color: #2a1e5c;
+}
+
+.seminor-login-form .form-control {
+  border: 0px solid #2a1e5c;
+  border-bottom: 1px solid #2a1e5c;
+  border-radius: 0 !important;
+  color: #2a1e5c;
+  background-color: transparent;
+}
+
+.btn-check-log .btn-check-login {
+  font-size: 16px;
+  padding: 10px 0;
+  border-radius: 100px;
+}
+
+.btn-check-login {
+  color: #2a1e5c;
+  font-weight: bold;
+  background-color: transparent;
+  border: 2px solid #2a1e5c;
+  transition: all ease-in-out .3s;
+}
+
+.btn-check-login {
+  display: inline-block;
+  padding: 12px 0;
+  margin-bottom: 0;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-image: none;
+  border-radius: 0;
+  width: 30%;
+}
+
+.btn-check-log .btn-check-login:hover {
+  color: #fff;
+  background-color: #2a1e5c;
+  border: 2px solid #2a1e5c;
+}
+
+.teja-nethas-contact-page-sec .about-me-hding {
+  padding: 1em 0 0 0;
+}
+
+.teja-nethas-contact-page-sec .about-me-dec p {
+  color: #2a1e5c;
+}
+.teja-nethas-contact-page-sec .clear-pd {
+  padding: 1em 0 1em 0;
+}
+.seminor-login-form textarea::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #2a1e5c;
+  font-size: 1rem;
+}
+.seminor-login-form textarea::-moz-placeholder { /* Firefox 19+ */
+  color: #2a1e5c;
+  font-size: 1rem;
+}
+.seminor-login-form textarea:-ms-input-placeholder { /* IE 10+ */
+  color: #2a1e5c;
+  font-size: 1rem;
+}
+.seminor-login-form textarea:-moz-placeholder { /* Firefox 18- */
+   color: #2a1e5c;
+   font-size: 1rem;
+}
+.teja-nethas-contact-page-sec{
+  background: #fff;
+}
+
+.example{
+  background: linear-gradient(to right,#ff8a00,#da1b60);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: none;
+}
+.about-project{
+  padding: 2em 0 2em 2em;
+}
+.about-project p strong{
+  color: #2a1e5c;
+}
+.about-project ul {
+    padding: 0 0 0 1em;
+}
+.about-project p, .about-project ul li{
+  color: #5E6670;
+}
+/*.skew-bg{
+  padding: 100px 0;
+    transform: skew(0deg, -10deg) translateY(-130px);
+} 
+
+.skew-bg .about-me-hding{
+      transform: skew(0deg, 10deg);
+} */

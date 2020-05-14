@@ -1,0 +1,132 @@
+/*mobile based css start from here*/
+
+@media only screen and (max-width: 600px) {
+    .xs-nav-brand {
+        float: left;
+        overflow: hidden;
+        width: 70%;
+    }
+    .xs-nav-brand img {
+        width: 70%;
+    }
+    .nethas-nav-links .navbar-nav .nav-link {
+        color: #2a1e5c !important;
+        font-size: 15px;
+        font-weight: bold;
+        margin: 0;
+        padding: 0.5em 1.5em !important;
+        transition: all .5s ease-in-out;
+    }
+    .about-me-sec {
+        background-color: #f1f1f9 !important;
+        padding: 2em 0 2em 0;
+    }
+    .about-me-sec .about-me-hding h1, .home-hding-sec h1 {
+        font-size: 2em;
+    }
+    .about-me-dec p {
+        font-size: 1em;
+    }
+    .about-me-sec .have-an-idea {
+        padding: 0 !important;
+    }
+    .work-expr-sec {
+        background: #ffffff !important;
+    }
+    .work-expr-sec.about-me-sec h2,
+    .what-can-i-do h2, .what-can-i-do h1{
+        font-size: 1.5em;
+        padding-bottom: 0.5em;
+    }
+    .what-can-i-do h2, .what-can-i-do h1 {
+        color: #2a1e5c;
+    }
+    .what-to-work-hding h3 {
+        font-size: 1.3em;
+    }
+    .what-to-work-sec .about-me-hding {
+        padding: 0em 0 1em 0;
+    }
+    .have-an-idea h2 {
+        font-size: 1.5em;
+    }
+    .btn-social {
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+        border: 2px solid #fff;
+        border-radius: 100%;
+        text-align: center;
+        font-size: 15px;
+        line-height: 35px;
+    }
+    .btn-outline {
+        margin-top: 0;
+    }
+    .seminor-login-form {
+        padding: 0.5em 0em;
+    }
+    .about-me-hding {
+        padding: 0em 0 1em 0;
+    }
+    /*.skew-bg {
+    transform: skew(0deg, -10deg) translateY(-28px);
+    }*/
+    .about-project {
+     padding: 1em 0 1em 0em;
+     font-size: 13px;
+    }
+    .divider-line{
+        padding: 1em 0;
+    }
+    .divider-line-pd-last{
+        padding: 1em 0;
+    }
+    .about-project p strong {
+     color: #2a1e5c;
+     font-size: 16px;
+    }
+}
+
+
+@media only screen and (max-width: 1024px) {
+    .nethas-nav-links .navbar-nav .nav-link {
+        font-size: 13px;
+        transition: all .5s ease-in-out;
+    }
+    .have-an-idea {
+        padding: 0;
+    }
+    .about-me-hding {
+        padding: 0;
+    }
+    .about-me-sec {
+        padding: 2em 0 2em 0;
+    }
+    .btn-social {
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+        border: 2px solid #fff;
+        border-radius: 100%;
+        text-align: center;
+        font-size: 15px;
+        line-height: 35px;
+    }
+    .btn-outline {
+        margin-top: 0;
+    }   
+    .about-me-hding h1 {
+        font-size: 5rem;
+        font-weight: bold;
+    }
+    .about-me-dec p {
+        font-size: 1em;
+    }
+    footer h3 {
+        font-size: 1.5rem;
+    }
+    footer p {
+        font-size: 12px;
+    }
+}

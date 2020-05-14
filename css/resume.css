@@ -1,0 +1,97 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+  padding: 0;
+  margin: 0;
+}@font-face {
+    font-family: Poppins-Regular;
+    src: url("../fonts/Poppins-Regular.otf") format("opentype");
+}
+p, ul, a, span, b, strong, div, hgroup,  h1,  h2,  h3,  h4,  h5,  h6  {
+    font-family:  "Poppins-Regular";
+    padding:  0;
+    margin:  0;
+}
+.resume-top-bar-pd{
+    background: #2a1e5c;
+    padding: 0.5em 0;
+}
+.resume-header, .resume-header-links{
+  padding: 2em 0;
+}
+.resume-header h1{
+    color: #ff9b00;
+    text-transform: uppercase;
+    font-size: 3.5rem;
+    margin: 0;
+  }
+.resume-header p{
+    color: #2a1e5c;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.resume-header-links{
+  float: right;
+}
+.resume-header-links p{
+    margin: 0;
+    padding: 0.3em 0 0 0;
+
+}
+.resume-header-links p a{
+    margin: 0;
+    font-size: 20px;
+    text-decoration: none;
+}
+.teja-nethas-mail{
+      color: #05386b;
+}
+.teja-nethas-url{
+  color: #2f2cff;
+}
+.teja-nethas-url span{
+  color: #4c4c4c;
+}
+a.teja-nethas-url:hover, a.teja-nethas-url:hover span, .teja-nethas-mail:hover{
+  color: #2f2cff;
+}
+.resume-education .resume-education-hding{
+    color: #ff9b00;
+    text-transform: uppercase;
+    font-size: 1rem;
+    margin: 0;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.resume-education-title p{
+  margin: 0;
+  line-height: 1.8;
+}
+.resume-education-collage{
+  color: #2a1e5c;
+  font-size: 15px;
+  font-weight: bold;
+}
+.resume-education{
+  margin-bottom: 1em;
+}
+.resume-education-course, .resume-education-duration{
+  font-size: 13px;
+}
+.resume-education-duration span{
+    color: #868585;
+}
+.teja-nethas-edu, .teja-nethas-skills{
+  padding: 1em 0;
+}
+.resume-education-title .teja-nethas-skills:first-child{
+  padding-top: 0px !important;
+}
+.teja-nethas-skills .resume-education-collage{
+  padding-bottom: 0.5em;
+}
+.resume-education-title{
+      padding: 0 0 1em 0;
+}
