@@ -682,3 +682,40 @@ footer .target-a .btn-for-get-in-touch {
 .skew-bg .about-me-hding{
       transform: skew(0deg, 10deg);
 } */
+
+
+/* portfolio css start from here*/
+#portfolio-about {
+    background-color: #fff;
+}
+#portfolio-about h2, #portfolio-section h2{
+    color: #2a1e5c;
+    text-transform: capitalize;
+    padding: 1em 0;
+}
+#portfolio-about p{
+    color: #212121;
+    font-size: 1.2em;
+    line-height: 1.8;
+    margin-bottom: 1rem;
+}
+#portfolio-section {
+    background-color: #f8f9fa;
+}
+
+.portfolio-item {
+    position: relative;
+    overflow: hidden;
+    padding: 1em 1em;
+    background: #f9f9f9;
+}
+
+.portfolio-item img {
+    width: 100%;
+    padding: 1em 1em;
+    transition: transform 0.3s ease-in-out;
+}
+
+.portfolio-item:hover img {
+    transform: scale(1.1);
+}
